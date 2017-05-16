@@ -2,7 +2,7 @@
   "name": "playtest-ok",
   "version": "0.0.1",
   "scripts": {
-    "watch": "npm run watch-css & nodemon server -e js,jade",
+    "watch": "npm run watch-css & nodemon server",
     "start": "node server"
   },
   "dependencies": {
