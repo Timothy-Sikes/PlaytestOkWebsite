@@ -1,15 +1,10 @@
-var http = require('http');
+var express = require('express');
+var app = express();
 
-var finalhandler = require('finalhandler');
-var serverStatic = require('serve-static');
+app.use(express.static('./content/static/'));
 
-var serve = serverStatic('./content/static');
-var port =  (process.env.PORT || 5000);
-
-
-var server = http.createServer(function(req, res) {
-    var done = finalhandler(req, res);
-    serve(req, res, done);
+app.get('/', function (req, res) {
+  res.sendfile('./content/static/HTML/main.html');
 })
 
-server.listen(port);
+app.listen((process.env.PORT || 8000));
