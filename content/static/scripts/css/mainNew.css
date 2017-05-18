@@ -12,7 +12,7 @@ html, body {
 .navbar a {
     color: #FFFFFF
 }
-.navbar-default .navbar-brand {
+.navbar-default .navbar-nav>li>a {
   color: #FFFFFF;
 }
 /* padded section */
