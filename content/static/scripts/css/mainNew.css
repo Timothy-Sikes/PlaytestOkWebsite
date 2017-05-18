@@ -5,6 +5,9 @@ html, body {
     height: 100%;
     width: 100%;
 }
+.creativity {
+    color: #7D7769
+}
 .navbar {
     background-color: #7D7769;
     color: #FFFFFF
@@ -86,7 +89,7 @@ html, body {
 #information {
     background: url(/images/pawns.jpg) no-repeat center center fixed;
     display: table;
-    height: 800px;
+    height: 300px;
     position: relative;
     width: 100%;
     -webkit-background-size: cover;
@@ -105,10 +108,11 @@ html, body {
     text-align: center;
 }
 footer {
+    background-color: #7D7769;
     padding: 20px 0;
 }
 footer .glyphicon {
-    color: #333333;
+    color: #FFFFFF;
     font-size: 60px;
 }
 footer .glyphicon:hover {
@@ -122,4 +126,7 @@ h3, h4 {
 }
 p {
     font-family: "Roboto"
+}
+hr {
+    color: #F8EBC2;
 }
