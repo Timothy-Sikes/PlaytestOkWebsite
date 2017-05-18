@@ -15,6 +15,11 @@ html, body {
 .navbar-default .navbar-nav>li>a {
   color: #FFFFFF;
 }
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+{
+    background-color: transparent;
+    color: #65A8A6;
+}
 /* padded section */
 .pad-section {
     padding: 50px 0;
@@ -50,7 +55,7 @@ html, body {
 }
 /* additional sections */
 #home {
-    /*background: url(/images/backgroundLightSmall.png) no-repeat center center fixed;*/
+    /*background: url(/images/pawns.jpg) no-repeat center center fixed;*/
     background-color: #F8EBC2;
     display: table;
     height: 100%;
@@ -63,7 +68,7 @@ html, body {
 }
 #about {
 }
-#services {
+#services, #sponsors {
     background-color: #65A8A6;
     color: #ffffff;
 }
@@ -79,6 +84,7 @@ html, body {
     width: 140px;
 }
 #information {
+    background: url(/images/pawns.jpg) no-repeat center center fixed;
     display: table;
     height: 800px;
     position: relative;
