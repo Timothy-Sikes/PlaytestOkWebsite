@@ -7,7 +7,7 @@ html, body {
     width: 100%;
 }
 .container-fluid {
-    height: 64px;
+    min-height: 64px;
 }
 .creativity {
     color: #7D7769
