@@ -61,6 +61,9 @@ html, body {
     background-size: cover;
     position: relative;
 }
+.sponsorship {
+    min-height: 385px;
+}
 /* vertical-centered text */
 .text-vcenter {
     display: table-cell;
@@ -86,9 +89,7 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
 }
-#about {
-}
-#services, #sponsors {
+#services, #sponsors, #about {
     background-color: #65A8A6;
     color: #ffffff;
 }
