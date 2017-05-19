@@ -12,6 +12,9 @@ html, body {
 .creativity {
     color: #7D7769
 }
+.logo {
+    max-width: 75%;
+}
 .navbar {
     background-color: #7D7769;
     color: #FFFFFF;
