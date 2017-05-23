@@ -92,7 +92,7 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
 }
-#services, #sponsors, #about {
+#services, #sponsors, #about, #friends {
     background-color: #65A8A6;
     color: #ffffff;
 }
@@ -150,4 +150,10 @@ p, h3, h4{
 }
 hr {
     color: #F8EBC2;
+}
+a {
+    color: #EAC661;
+}
+a:hover{
+    color: #FBD772;
 }
