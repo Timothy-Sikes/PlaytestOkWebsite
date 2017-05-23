@@ -3,7 +3,7 @@ var app = express();
 
 app.use(express.static('./content/static/'));
 
-app.get('/', function (req, res) {
+app.get('*', function (req, res) {
   res.sendfile('./content/static/HTML/main.html');
 })
 
