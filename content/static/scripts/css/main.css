@@ -92,11 +92,11 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
 }
-#services, #sponsors, #about, #friends {
+#resources, #sponsors, #about, #friends {
     background-color: #65A8A6;
     color: #ffffff;
 }
-#services .glyphicon {
+#resources .glyphicon {
     border: 2px solid #FFFFFF;
     border-radius: 50%;
     display: inline-block;
@@ -152,8 +152,8 @@ hr {
     color: #F8EBC2;
 }
 a {
-    color: #EAC661;
+    color: #F8EBC2;
 }
 a:hover{
-    color: #FBD772;
+    color: #F9E883;
 }
